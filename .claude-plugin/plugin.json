@@ -1,0 +1,9 @@
+{
+  "name": "agent-office",
+  "version": "0.1.0",
+  "description": "Clawd, Codex and Antigravity animated above the prompt, a live feed of background work, and nine desktop themes you switch live with /theme",
+  "author": { "name": "SagarHyd" },
+  "license": "MIT",
+  "repository": "https://github.com/SagarHyd/agent-office",
+  "types": "./types/index.d.ts"
+}

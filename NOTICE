@@ -1,0 +1,29 @@
+agent-office
+Copyright (c) 2026 SagarHyd, MIT licensed (see LICENSE).
+
+This repository includes work by others, used under their licenses. The full
+license texts are in the LICENSES/ folder.
+
+1. Hamza Zafar, hamzafer/claude-code-mods (https://github.com/hamzafer/claude-code-mods)
+   MIT License, see LICENSES/MIT-hamzafer-claude-code-mods.txt
+   - Themes: Akatsuki Night, Gotham Night, Interstellar, Matrix Mode, Stark Lab
+     (hooks/themes/<theme>/look.ts and scene/)
+   - The shared theme engine: hooks/themes/shared/state.ts and
+     hooks/themes/shared/make-colors.js, and the signal hooks adapted into
+     hooks/themes.tsx
+   Changes: import paths only, so the themes can be hosted inside one plugin.
+
+2. Ishu Agrawal, ishuagrawal/claude-code-themes (https://github.com/ishuagrawal/claude-code-themes)
+   MIT License, see LICENSES/MIT-ishuagrawal-claude-code-themes.txt
+   - Theme: Rainy Window (hooks/themes/rainy-window/)
+   Changes: its colours and scene are reached through look.ts and adapter.ts,
+   written for this repository; scene.ts, clawd/ and make-colors.js are unchanged.
+
+3. Melvin Dave Vivas, "backdrops" plugin in donvito/skillsbento (https://github.com/donvito/skillsbento)
+   Apache License 2.0, see LICENSES/Apache-2.0.txt
+   - Scene art in Rainy Cafe, Northern Lights and New Year Eve
+     (hooks/themes/<theme>/scene/)
+   Changes: animation and a second "needs you" scene were added; import paths changed.
+
+Clawd is the mascot of Anthropic's Claude Code. This is an unofficial,
+personal project, not made or endorsed by Anthropic.
